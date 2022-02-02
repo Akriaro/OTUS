@@ -15,12 +15,12 @@ Python QA Engineer
    - Сделать pull request
    - Прислать pull request
 
-    Критерии оценки:
+    **Критерии оценки:**
    - PR прислан
    - Есть README.md
    - Есть .gitignore
    - Нет лишних файлов
-   - </details>
+   </details>
 
 3) homework2 - Погружение в Python. ООП
 4) homework3 - Работа с тестовыми данными
