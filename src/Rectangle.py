@@ -10,16 +10,18 @@ class Rectangle(Figure):
         self.side_a = side_a
         self.side_b = side_b
 
+    @property
     def area(self):
         return self.side_a * self.side_b
 
+    @property
     def perimeter(self):
         return (self.side_a + self.side_b) * 2
 
 
-square = Rectangle(2, 4)
-print(square.side_a)
-print(square.side_b)
-print(square.name)
-print(square.area())
-print(square.perimeter())
+# square = Rectangle(2, 4)
+# print(square.side_a)
+# print(square.side_b)
+# print(square.name)
+# print(square.area)
+# print(square.perimeter)

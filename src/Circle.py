@@ -10,14 +10,16 @@ class Circle(Figure):
             raise ValueError("NaN")
         self.radius = radius
 
+    @property
     def area(self):
         return pi * (self.radius ** 2)
 
+    @property
     def perimeter(self):
         return 2 * pi * self.radius
 
 square = Circle(3)
 print(square.radius)
 print(square.name)
-print(square.area())
-print(square.perimeter())
+print(square.area)
+print(square.perimeter)
