@@ -2,11 +2,11 @@ from src.Figure import Figure
 
 class Rectangle(Figure):
 
-    name = "Rectangle"
+    name = 'Rectangle'
 
     def __init__(self, side_a, side_b):
         if type(side_a and side_b) not in [int, float]:
-            raise ValueError("NaN")
+            raise ValueError('NaN')
         self.side_a = side_a
         self.side_b = side_b
 
@@ -17,11 +17,3 @@ class Rectangle(Figure):
     @property
     def perimeter(self):
         return (self.side_a + self.side_b) * 2
-
-
-# square = Rectangle(2, 4)
-# print(square.side_a)
-# print(square.side_b)
-# print(square.name)
-# print(square.area)
-# print(square.perimeter)

@@ -3,11 +3,11 @@ from math import pi
 
 class Circle(Figure):
 
-    name = "Circle"
+    name = 'Circle'
 
     def __init__(self, radius):
         if type(radius) not in [int, float]:
-            raise ValueError("NaN")
+            raise ValueError('NaN')
         self.radius = radius
 
     @property
@@ -17,9 +17,3 @@ class Circle(Figure):
     @property
     def perimeter(self):
         return 2 * pi * self.radius
-
-square = Circle(3)
-print(square.radius)
-print(square.name)
-print(square.area)
-print(square.perimeter)

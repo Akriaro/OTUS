@@ -1,10 +1,9 @@
 class Figure:
 
     def __init__(self):
-        raise RuntimeError("Нельзя создавать экземпляр класса Figure")
+        raise RuntimeError('Создание экземпляра фигуры класса запрещено')
 
     def add_area(self, figure):
-        if isinstance(figure, Figure):
-            return self.area + figure.area
-        else:
-            raise ValueError("Передан объект некорректного класса.")
+        if not isinstance(figure, Figure):
+            raise ValueError('Объект неподдерживаемого класса был передан в метод')
+        return self.area + figure.area
