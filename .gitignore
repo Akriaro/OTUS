@@ -137,3 +137,6 @@ pytest.ini
 #init.py
 src/__init__.py
 tests/__init__.py
+
+#data hw3
+homework3/data
