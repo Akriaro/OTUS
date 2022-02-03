@@ -79,13 +79,13 @@ triangle.add_area(square)
 </details>
 
 ----------------------------------------------
-4) homework3 - Работа с тестовыми данными
-5) homework4 - DDT в тестировании API
-6) homework5 - Ожидания элементов
-7) homework6 - Паттерн PageObject
-8) homework7 - Отчёты Allure
-9) homework8 - Анализ логов веб-сервера
-10) homework9 - Работа с сетью II (socket)
-11) homework10 - Работа с ОС Linux с помощью Python 
-12) homework11 - Оркестрация и взаимодействие контейнеров 
-13) homework12 - Подготовка тестового окружения
+3) homework3 - Работа с тестовыми данными
+4) homework4 - DDT в тестировании API
+5) homework5 - Ожидания элементов
+6) homework6 - Паттерн PageObject
+7) homework7 - Отчёты Allure
+8) homework8 - Анализ логов веб-сервера
+9) homework9 - Работа с сетью II (socket)
+10) homework10 - Работа с ОС Linux с помощью Python 
+11) homework11 - Оркестрация и взаимодействие контейнеров 
+12) homework12 - Подготовка тестового окружения
