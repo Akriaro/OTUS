@@ -130,3 +130,6 @@ dmypy.json
 
 # PyCharmProject
 .idea/
+
+#PyTestConfig
+pytest.ini
