@@ -140,3 +140,7 @@ tests/__init__.py
 
 #data hw3
 homework3/data
+
+#hw4
+homework4/.pytest_cache
+homework4/__init__.py
