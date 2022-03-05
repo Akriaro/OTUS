@@ -144,3 +144,8 @@ homework3/data
 #hw4
 homework4/.pytest_cache
 homework4/__init__.py
+
+#hw5
+homework5/.pytest_cache
+homework5/*.log
+homework5/test_first.py
