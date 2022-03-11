@@ -149,3 +149,6 @@ homework4/__init__.py
 homework5/.pytest_cache
 homework5/*.log
 homework5/test_first.py
+
+#hw6
+homework6/page_objects/__init__.py
