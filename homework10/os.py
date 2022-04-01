@@ -18,7 +18,7 @@ for line in output[1:]:
     user = line.split()[0]
     memory = float(line.split()[3])
     cpu = float(line.split()[2])
-    process = line.split()[10]
+    process = ' '.join(line.split()[10:])
 
     if user not in data['USERS']:
         data['USERS'][user] = 0
